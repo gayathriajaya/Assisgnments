@@ -4,7 +4,7 @@ element. Write a function to return the minimum number of jumps to reach the end
 first element). If an element is 0, then we cannot move through that element.
 '''
 #dynamic programming
-
+import sys
 def minjump(arr,n):
 
     jump=[0 for _ in range(n)]
